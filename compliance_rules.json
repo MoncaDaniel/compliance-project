@@ -1,0 +1,19 @@
+{
+  "unauthorized": "Unauthorized activity flagged",
+  "confidential": "Confidential information found",
+  "non-disclosure": "Non-disclosure agreement reference",
+  "forbidden": "Forbidden term found",
+  "gdpr": "GDPR compliance issue",
+  "aml": "Anti-Money Laundering reference",
+  "sec": "SEC regulation mention",
+  "data breach": "Potential data breach reference",
+  "intellectual property": "Intellectual property mention",
+  "privacy policy": "Privacy policy compliance check",
+  "trade secret": "Trade secret disclosure",
+  "risk management": "Risk management procedure required",
+  "financial regulation": "Financial regulation mention",
+  "legal liability": "Legal liability reference",
+  "export control": "Export control compliance",
+  "data protection": "Data protection requirement",
+  "compliance program": "Compliance program reference"
+}

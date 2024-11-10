@@ -1,0 +1,30 @@
+{
+    "Entities": [
+        {
+            "text": "sec",
+            "label": "ORG"
+        },
+        {
+            "text": "aml",
+            "label": "ORG"
+        }
+    ],
+    "Compliance Issues": [
+        "Unauthorized activity flagged",
+        "Confidential information found",
+        "Forbidden term found",
+        "GDPR compliance issue",
+        "Anti-Money Laundering reference",
+        "SEC regulation mention",
+        "Potential data breach reference",
+        "Intellectual property mention",
+        "Privacy policy compliance check",
+        "Trade secret disclosure",
+        "Risk management procedure required",
+        "Financial regulation mention",
+        "Legal liability reference",
+        "Export control compliance",
+        "Data protection requirement",
+        "Compliance program reference"
+    ]
+}

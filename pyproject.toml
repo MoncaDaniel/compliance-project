@@ -1,0 +1,29 @@
+[tool.poetry]
+name = "compliance-project"
+version = "0.1.0"
+description = "A project for compliance analysis with NLP and ML."
+authors = ["Your Name <your.email@example.com>"]
+
+[tool.poetry.dependencies]
+python = ">=3.10,<3.11"
+pandas = "^2.2.2"
+spacy = "3.7.4"
+tensorflow = "2.13.0"
+torch = "2.1.1"
+transformers = "^4.46.1"
+pdfplumber = "^0.11.4"
+numpy = "<2.0"
+scikit-learn = "^1.5.1"
+imbalanced-learn = "^0.12.3"
+matplotlib = "^3.9.0"
+seaborn = "^0.13.2"
+tensorflow-io-gcs-filesystem = "^0.23.1"
+
+[tool.poetry.dev-dependencies]
+pytest = "^8.3.3"
+black = "^23.1.0"
+
+# Define the packages as an array of tables
+[[tool.poetry.packages]]
+include = "compliance_project"
+from = "src"
