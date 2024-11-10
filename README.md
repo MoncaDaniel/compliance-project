@@ -32,7 +32,7 @@ compliance_project/
         ├── preprocess.py           # PDF text extraction and preprocessing
         ├── rules.py                # Compliance rule checking functions
         └── train_confidential_model.py # Script for training confidential data detection model
-
+```
 
 ## Installation
 
@@ -70,26 +70,6 @@ Run the compliance analysis by executing the main script with a PDF file:
 
 ```bash
 python src/compliance_project/main.py <file_path> [output_path]
-# Project Modules
-
-1. **`preprocess.py`**  
-   Contains functions to load and preprocess PDF documents.
-
-2. **`analyze.py`**  
-   Includes functions for named entity recognition (NER) using SpaCy.
-
-3. **`rules.py`**  
-   Contains rule-based compliance checking functions.
-
-4. **`extract_stakeholder_info.py`**  
-   Extracts stakeholder names and ID numbers from document text.
-
-5. **`train_confidential_model.py`**  
-   Trains a machine learning model for confidential data detection.
-
-# Extending the Project
-
-To add new compliance rules or customize entity recognition, modify the `rules.py` or `analyze.py` files as needed. Update `requirements.txt` if adding new dependencies.
 
 # License
 
