@@ -32,7 +32,8 @@ compliance_project/
         ├── preprocess.py           # PDF text extraction and preprocessing
         ├── rules.py                # Compliance rule checking functions
         └── train_confidential_model.py # Script for training confidential data detection model
-# Installation
+
+## Installation
 
 To set up the project environment, follow these steps:
 
@@ -62,7 +63,7 @@ To set up the project environment, follow these steps:
     python -m spacy download en_core_web_md
     ```
 
-# Usage
+## Usage
 
 Run the compliance analysis by executing the main script with a PDF file:
 
