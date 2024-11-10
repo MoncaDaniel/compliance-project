@@ -2,13 +2,13 @@
 
 ## Introduction
 
-The Compliance Analysis Project is designed to support compliance teams by analyzing PDF documents for sensitive information. This tool uses NLP techniques to extract named entities, check for compliance with predefined rules, and detect confidential information in text. It is aimed at organizations handling sensitive documents containing names, IDs, passport numbers, and other identifiable information. 
+The Compliance Analysis Project is designed to support compliance teams by analyzing PDF documents for sensitive information. This tool uses NLP techniques to extract named entities, check for compliance with predefined rules, and detect confidential information in text. It is aimed at organizations handling sensitive documents containing names, IDs, passport numbers, and other identifiable information.
 
 Key objectives:
 - Automatically detect sensitive information in PDF documents.
 - Identify stakeholder information such as names and IDs.
 - Provide rule-based compliance checks.
-  
+
 ## Project Workflow
 
 The project follows these main steps for each PDF document:
@@ -21,7 +21,7 @@ The project follows these main steps for each PDF document:
 6. **Confidential Information Detection**: Use a trained machine learning model to detect confidential information.
 7. **Output**: Generate a report with metadata, identified entities, and compliance issues.
 
-  ### Preprocessing
+### Preprocessing
 
 The preprocessing pipeline is designed to handle PDF documents and ensure the text is suitable for analysis.
 
@@ -29,13 +29,13 @@ The preprocessing pipeline is designed to handle PDF documents and ensure the te
 - **Text Cleaning**: Removes non-alphabetic characters, converts text to lowercase, and normalizes whitespace.
 - **Stop Words Removal** (if applicable): Removes common stop words to improve entity recognition accuracy.
 
-  ### Entity Extraction
+### Entity Extraction
 
 Entity extraction is performed using SpaCy's pre-trained models to identify key entities in the document text. The project focuses on detecting:
 
 - **PERSON**: Names of individuals.
 - **ID**: Identifiable codes such as passport numbers or national IDs.
-  
+
 This process involves tokenizing the text, identifying entities, and classifying each according to the predefined categories.
 
 ### Compliance Rule Checking
@@ -94,7 +94,3 @@ To train the confidential information detection model, follow these steps:
 
 - Use `print` statements in code to verify data at various stages.
 - Run individual functions in isolation to identify where issues arise.
-
-
-
-  
